@@ -1,0 +1,67 @@
+/* Footer */
+footer {
+  margin-top: auto;
+  position: relative;
+  color: #fff;
+  background: #06c;
+  z-index: 1;
+}
+footer ul {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* Left Column */
+footer .tm {
+  margin: 50px;
+}
+footer .tm img {
+  width: 150px;
+}
+footer .tm p {
+  margin: 10px;
+  color: #aaa;
+}
+footer .tm h4 {
+  margin: 10px;
+  float: left;
+}
+/* Center Column */
+footer .socials {
+  display: inline;
+  padding: 30px;
+}
+footer .socials img {
+  margin: 5px;
+  width: 35px;
+}
+.phone button {
+  padding: 6px;
+  margin-bottom: 20px;
+  padding-inline: 20px;
+  border: solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 1.0s ease;
+}
+.phone button:hover {
+  border-color: #ccc;
+  background-color: #ccc;
+}
+.phone button h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #06c;
+}
+/* Right Column */
+.darkmode-btn img {
+  cursor: pointer;
+  width: 35px;
+}
+/* "RESPONSIVE" design */
+@media (max-width: 720px) {
+  footer ul {
+    flex: auto;
+  }
+}

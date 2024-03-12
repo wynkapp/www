@@ -1,0 +1,43 @@
+.div1 {
+  padding: 10px;
+  background-color: #06c;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.div1-box {
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.div1-text {
+  margin: 50px;
+}
+.div1-text h1 {
+  color: #06c;
+}
+.div1-text button {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: large;
+  background-color: #07d;
+  transition: all 1.0s ease;
+}
+.div1-text button:hover {
+  background-color: #05b;
+}
+.div1-img img {
+  width: 100%;
+  border-radius: 25px;
+}
+.darkmode {
+  .div1-box {
+    background-color: #111;
+  }
+}
