@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/logo.png">
-  <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
   <script src="js/navbar.js" defer></script>
   <script src="js/darkmode.js" defer></script>
   <link rel="stylesheet" href="css/style.css">
@@ -32,7 +31,22 @@
       </ul>
     </nav>
   </header>
-  <div class="search" data-skyscanner-widget="FlightSearchWidget" data-locale="en-GB"></div>
+  <div
+  class="search"
+  data-skyscanner-widget="FlightSearchWidget"
+  data-locale="en-GB"
+  data-market="UK"
+  data-currency="GBP"
+  data-hide-powered-by="true"
+  data-z-index="500"
+  data-widget-border-radius="1"
+  data-button-colour="#06c"
+  data-widget-padding="100"
+  data-destination-iata-code="bey"
+  data-origin-geo-lookup="true"
+  data-responsive="false"
+></div>
+<script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
   <footer>
     <center>
       <ul>
