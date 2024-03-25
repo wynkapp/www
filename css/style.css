@@ -28,3 +28,13 @@ body.darkmode {
   background: #111;
   color: #fff;
 }
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: all 1.0s ease;
+}
+button:hover {
+  background-color: #ccc;
+}

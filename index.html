@@ -8,6 +8,8 @@
     <script src="js/navbar.js" defer></script>
     <script src="js/darkmode.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Wynk</title>
@@ -16,7 +18,7 @@
     <header>
       <nav>
         <ul>
-          <li class="logo"><a href="index.html"><img src="img/mono_logo_light.svg" alt="header"></a></li>
+          <li class="logo"><a href="index.html"><img src="img/Wynk.png" alt="header"></a></li>
           <div class="toggle-menu">
             <div class="menu-btn">
               <div class="menu-gfx"></div>
@@ -31,13 +33,12 @@
         </ul>
       </nav>
     </header>
-    <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
-    <center><zapier-interfaces-chatbot-embed is-popup='false' chatbot-id='clqvp5y6g00admlpx9n0yregt' height='600px' width='400px'></zapier-interfaces-chatbot-embed></center>
+    <!-- TODO -->
     <footer>
       <center>
         <ul>
           <ul class="tm">
-            <li><a href="index.html"><img src="img/mono_logo_light.svg" alt="footer"></a></li>
+            <li><a href="index.html"><img src="img/Wynk.png" alt="footer"></a></li>
             <li><h4>&copy; 2024 Wynk&trade;</h4><p>all rights reserved.</p></li>
           </ul>
           <ul class="socials">
@@ -56,5 +57,7 @@
         </ul>
       </center>
     </footer>
+    <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+    <zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='clqvp5y6g00admlpx9n0yregt' height='600px' width='400px'></zapier-interfaces-chatbot-embed>
   </body>
 </html>

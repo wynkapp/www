@@ -59,16 +59,6 @@ nav .mainlink {
   text-align: center;
   order: 3;
 }
-nav .mainlink button {
-  padding: 10px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  transition: all 1.0s ease;
-}
-nav .mainlink button:hover {
-  background-color: #ccc;
-}
 /* Menu Button */
 .menu-btn {
   color: #fff;

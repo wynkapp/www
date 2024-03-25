@@ -1,8 +1,4 @@
 .search {
-  margin: 100px;
-}
-@media (max-width: 720px) {
-  .search {
-    margin: 10px;
-  }
+  margin: 10px;
+  max-width: 1000px;
 }
