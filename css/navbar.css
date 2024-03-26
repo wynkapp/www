@@ -26,14 +26,14 @@ nav ul li:hover a {
   color: #f80;
 }
 /* Other Links */
-nav .link {
+.link {
   position: relative;
   width: auto;
   margin: 0 16px;
   text-align: center;
   order: 3;
 }
-nav .link:after {
+.link:after {
   position: absolute;
   content: "";
   left: 0;
@@ -44,15 +44,15 @@ nav .link:after {
   opacity: 0;
   transition: all 0.2s linear;
 }
-nav .link button a {
+.link button a {
   color: #fff;
 }
-nav .link:hover:after {
+.link:hover:after {
   opacity: 1;
   bottom: -2px;
 }
 /* Main Link */
-nav .mainlink {
+.mainlink {
   position: relative;
   width: auto;
   margin: 0 16px;
@@ -118,7 +118,7 @@ nav .mainlink {
     display: none;
     width: 100%;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
   }
   .links.active {
     display: flex;

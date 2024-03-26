@@ -1,4 +1,7 @@
 .search {
   margin: 10px;
+  padding: 10px;
   max-width: 1000px;
+  background-color: #0005;
+  border-radius: 10px;
 }

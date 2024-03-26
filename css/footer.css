@@ -54,11 +54,6 @@ footer .socials img {
   font-family: Arial, Helvetica, sans-serif;
   color: #06c;
 }
-/* Right Column */
-.darkmode-btn img {
-  cursor: pointer;
-  width: 35px;
-}
 /* "RESPONSIVE" design */
 @media (max-width: 720px) {
   footer ul {

@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/logo.png">
-  <script src="js/navbar.js" defer></script>
-  <script src="js/darkmode.js" defer></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/search.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <title>Wynk</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li class="logo"><a href="index.html"><img src="img/Wynk.png" alt="header"></a></li>
-        <div class="toggle-menu">
-          <div class="menu-btn">
-            <div class="menu-gfx"></div>
-          </div>
-        </div>
-        <ul class="links">
-          <li class="link"><a href="about.html">About</a></li>
-          <li class="link"><a href="mailto:alex@wynkapp.net">E-mail</a></li>
-          <li class="link"><a href="https://linktr.ee/wynkapp">Socials</a></li>
-          <li class="mainlink"><a href="search.html"><button><h1>Search Flights</h1></button></a></li>
-        </ul>
-      </ul>
-    </nav>
-  </header>
-  <center>
-    <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
-    <div
-    class="search"
-    data-skyscanner-widget="FlightSearchWidget"
-    data-locale="en-GB"
-    data-market="UK"
-    data-currency="GBP"
-    data-hide-powered-by="true"
-    data-z-index="500"
-    data-widget-border-radius="1"
-    data-button-colour="#06c"
-    data-widget-padding="100"
-    data-destination-iata-code="bey"
-    data-origin-geo-lookup="true"
-    data-responsive="false"
-    ></div>
-  </center>
-  <footer>
-    <center>
-      <ul>
-        <ul class="tm">
-          <li><a href="index.html"><img src="img/Wynk.png" alt="footer"></a></li>
-          <li><h4>&copy; 2024 Wynk&trade;</h4><p>all rights reserved.</p></li>
-        </ul>
-        <ul class="socials">
-          <li class="phone"><button><a href="tel:+96171025015" target="_blank"><h3>+961 71 025 015</h3></a></button></li>
-          <li>
-            <a href="https://linktr.ee/wynkapp" target="_blank"><img src="img/linktree.svg" alt="linktree"></a>
-            <a href="https://apps.apple.com/ae/app/wynk/id6473173977" target="_blank"><img src="img/appstore.svg" alt="appstore"></a>
-            <a href="https://play.google.com/store/apps/details?id=com.app.app.wynk" target="_blank"><img src="img/googleplay.svg" alt="googleplay"></a>
-            <a href="https://www.instagram.com/wynk.app/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
-            <a href="https://www.tiktok.com/@wynk.app" target="_blank"><img src="img/tiktok.svg" alt="tiktok"></a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/navbar.js" defer></script>
+    <script src="js/darkmode.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Wynk</title>
+  </head>
+  <body>
+    <video id="backgroundVideo" autoplay muted loop>
+      <source src="assets/video.mp4" type="video/mp4">
+    </video>
+    <header>
+      <nav>
         <ul>
-          <li class="darkmode-btn"><img src="img/darkmode.svg" alt="darkmode"></li>
+          <li class="logo"><a href="index.html"><img src="assets/Wynk.png" alt="header"></a></li>
+          <div class="toggle-menu">
+            <div class="menu-btn">
+              <div class="menu-gfx"></div>
+            </div>
+          </div>
+          <ul class="links">
+            <li class="link"><a href="about.html">About</a></li>
+            <li class="link"><a href="mailto:alex@wynkapp.net">E-mail</a></li>
+            <li class="link"><a href="https://linktr.ee/wynkapp">Socials</a></li>
+            <li class="mainlink"><a href="search.html"><button><h3>Search Flights</h3></button></a></li>
+          </ul>
         </ul>
-      </ul>
+      </nav>
+    </header>
+    <center>
+      <div
+      class="search"
+      data-skyscanner-widget="FlightSearchWidget"
+      data-locale="en-US"
+      data-market="US"
+      data-currency="USD"
+      data-hide-powered-by="true"
+      data-destination-iata-code="BEY"
+      data-origin-geo-lookup="true"
+      data-button-colour="#06c"
+      data-font-colour="#fff"
+    ></div>
+    <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
     </center>
-  </footer>
-  <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
-  <zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='clqvp5y6g00admlpx9n0yregt' height='600px' width='400px'></zapier-interfaces-chatbot-embed>
-</body>
+    <footer>
+      <center>
+        <ul>
+          <ul class="tm">
+            <li><a href="index.html"><img src="assets/Wynk.png" alt="footer"></a></li>
+            <li><h4>&copy; 2024 Wynk&trade;</h4><p>all rights reserved.</p></li>
+          </ul>
+          <ul class="socials">
+            <li class="phone"><button><a href="tel:+96171025015" target="_blank"><h3>+961 71 025 015</h3></a></button></li>
+            <li>
+              <a href="https://linktr.ee/wynkapp" target="_blank"><img src="assets/linktree.svg" alt="linktree"></a>
+              <a href="https://apps.apple.com/ae/app/wynk/id6473173977" target="_blank"><img src="assets/appstore.svg" alt="appstore"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.app.app.wynk" target="_blank"><img src="assets/googleplay.svg" alt="googleplay"></a>
+              <a href="https://www.instagram.com/wynk.app/" target="_blank"><img src="assets/instagram.svg" alt="instagram"></a>
+              <a href="https://www.tiktok.com/@wynk.app" target="_blank"><img src="assets/tiktok.svg" alt="tiktok"></a>
+            </li>
+          </ul>
+        </ul>
+      </center>
+    </footer>
+    <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+    <zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='clqvp5y6g00admlpx9n0yregt' height='600px' width='400px'></zapier-interfaces-chatbot-embed>
+  </body>
 </html>

@@ -19,14 +19,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #eee;
-}
-body.darkmode {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: #111;
-  color: #fff;
 }
 button {
   padding: 10px;
